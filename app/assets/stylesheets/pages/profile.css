@@ -4,3 +4,8 @@
 h1{  
   font-size: 20px;
 }
+.icon {
+  text-decoration: none;
+  color: rgb(85, 75, 75);
+  margin: 10px;
+}

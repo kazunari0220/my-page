@@ -12,7 +12,7 @@
 li {
   display: inline;
 }
-a {
+.menu {
   text-decoration: none;
   margin-left: 20px;
   color: black;
@@ -105,7 +105,7 @@ body {
   }
 
 .txt {
-  margin-top: calc(50vh - 43px);
+  margin-top: calc(40vh - 40px);
   position: absolute;
   width: 100%;
   z-index: 1000;
@@ -118,4 +118,7 @@ h1 {
 p {
   font-size: 20px;
   margin-top: 26px;
+}
+span {
+  font-size: 40px;
 }

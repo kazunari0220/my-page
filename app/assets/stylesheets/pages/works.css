@@ -1,9 +1,15 @@
-.app, .bot {
+.bot {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
-.app-content{
+.share-space {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+.bot-content{
   width: 40vw;
   margin:2em 0;
   position: relative;
@@ -11,7 +17,7 @@
   border-top: solid 2px black;
   border-bottom: solid 2px black;
 }
-.app-content:before, .app-content:after{
+.bot-content:before, .bot-content:after{
   content: '';
   position: absolute;
   top: -10px;
@@ -20,39 +26,11 @@
   height: calc(100% + 20px);
   background-color: black;
 }
-.app-content:before {left: 10px;}
-.app-content:after {right: 10px;}
-.app-content p {
-  margin: 0; 
-  padding: 0;
-}
-.share-space {
-  font-size: 40px;
-  text-decoration: none;
-  color: #000;
-}
-.bot-content{
-  width: 40vw;
-    margin:2em 0;
-    position: relative;
-    padding: 0.5em 1.5em;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-}
-.bot-content:before, .bot-content:after{
-    content: '';
-    position: absolute;
-    top: -10px;
-    width: 2px;
-    height: -webkit-calc(100% + 20px);
-    height: calc(100% + 20px);
-    background-color: black;
-}
 .bot-content:before {left: 10px;}
 .bot-content:after {right: 10px;}
 .bot-content p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 .bot-text {
   font-size: 30px;

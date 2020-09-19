@@ -105,7 +105,7 @@ body {
   }
 
 .txt {
-  margin-top: calc(40vh - 40px);
+  margin-top: calc(30vh - 30px);
   position: absolute;
   width: 100%;
   z-index: 1000;
@@ -119,6 +119,6 @@ p {
   font-size: 20px;
   margin-top: 26px;
 }
-span {
+.change, .change2, .change3, .change4 {
   font-size: 40px;
 }

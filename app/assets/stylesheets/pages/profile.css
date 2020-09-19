@@ -9,3 +9,18 @@ h1{
   color: rgb(85, 75, 75);
   margin: 10px;
 }
+.details-main {
+  display: flex;
+  flex-direction: row;
+}
+.jobs {
+  width: 50vw;
+}
+.introduction {
+  width: 50vw;
+}
+.admission {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}

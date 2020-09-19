@@ -1,3 +1,4 @@
+// ヘッダーの拡大
 $(function() {
   $(".menu").hover(
     function(){
@@ -9,6 +10,7 @@ $(function() {
   );
 });
 
+// ロゴ回転
 $(function() {
   $('#spin, #spin2').animate({zIndex:1},{
     //1秒かけてアニメーション
@@ -26,3 +28,25 @@ $(function() {
     }
   })
 });
+
+
+// $(function () {
+//   $('#change').hide().slideDown(1000);
+//   $('#change2').hide().slideDown(2000);
+// });
+
+$(function () {
+  $('.change').hide().slideDown(1000);
+  $('.change2').hide().slideDown(2000);
+  $('.change3').hide().slideDown(3000);
+  $('.change4').hide().slideDown(4000);
+});
+
+// $(function(){
+//   $('#change').delay(2000).queue(function(){
+//     $(this).text("企業様");
+//   });
+//   $('#change2').delay(2000).queue(function(){
+//     $(this).text("ご貴重な時間を頂きありがとうございます。");
+//   });
+// });

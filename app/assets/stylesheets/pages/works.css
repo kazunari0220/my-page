@@ -42,3 +42,9 @@
 .last {
   color: rgb(252, 84, 84);
 }
+
+#slide, #slide2 {
+  width:300px;
+  height:200px;
+  margin:0 auto;
+}

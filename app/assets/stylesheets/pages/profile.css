@@ -24,3 +24,51 @@ h1{
   width: 50%;
   margin: 0 auto;
 }
+
+/* icon hoverアニメーション */
+.icon {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+}
+.icon::before,
+.icon::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #2ecc71;
+  transition: .3s;
+}
+.icon::before {
+  top: 0;
+  left: 0;
+}
+.icon::after {
+  bottom: 0;
+  right: 0;
+}
+.icon:hover::before,
+.icon:hover::after {
+  width: 100%;
+}
+
+/* 下線アニメーション */
+.Text-Span {
+  position: relative;
+  z-index: 1;
+}
+.Text-Span:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 0%;
+  height: 4px;
+  background: #5bc8ac;
+  z-index: -1;
+  transition: all 4.0s;
+}
+.Text-Span.isActive:after {
+  width: 100%;
+}

@@ -74,3 +74,16 @@
   left:0;
   top:0;
 }
+/* URLアニメーション */
+.share-space {
+  padding: 0 .3em;
+  background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(167,138,184) 50%);
+  background-position: 0 0;
+  background-size: auto 200%;
+  transition: .3s;
+}
+.share-space:hover {
+  background-position: 0 100%;
+  color: #fff;
+  border-radius: 5px;
+}

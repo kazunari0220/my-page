@@ -7,7 +7,6 @@
   font-size: 40px;
   text-decoration: none;
   color: #000;
-  display: block;
 }
 .bot-content{
   width: 50vw;
@@ -43,8 +42,35 @@
   color: rgb(252, 84, 84);
 }
 
-#slide, #slide2 {
+#slide, #slide2, #slide3, #slide4 {
   width:300px;
   height:200px;
   margin:0 auto;
+  position:relative;
+}
+#slide img {
+  position:absolute;
+  left:0;
+  top:0;
+}
+#slide2 img {
+  position:absolute;
+  left:0;
+  top:0;
+}
+/* QRコードを中央に寄せる為 */
+#slide2 .position {
+  position:absolute;
+  left:17%;
+  top:0;
+}
+#slide3 img {
+  position:absolute;
+  left:0;
+  top:0;
+}
+#slide4 img {
+  position:absolute;
+  left:0;
+  top:0;
 }

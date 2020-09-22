@@ -94,3 +94,17 @@
   </h1>
 </div>
 
+<script src="./bubbly-bg.js"></script>
+<script>
+bubbly({
+  blur:0.1, //ぼかし
+  colorStart: '#fff', //背景グラデーション始まりの色
+  colorStop: '#fff', //背景グラデーション終わりの色
+  radiusFunc:() => Math.random() * 100, //大きさ
+  velocityFunc:() => Math.random() * 1, //速さ 
+  bubbleFunc:() => `hsla(${140 + Math.random() * 20}, 100%, 90%, 0.1)`, //色彩
+  shadowColor: '#483d8b',
+  bubbles:5,
+  compose: 'source-over',
+});
+</script>
